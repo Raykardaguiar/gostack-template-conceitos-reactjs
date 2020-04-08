@@ -10,12 +10,21 @@ body {
 
 div {
   width: 100%;
-  margin: 20px;
+  padding: 20px;
 }
 
+div ul {
+  max-width: 350px;
+}
+.main-repository {
+  max-width: 300px;
+}
 div li {
   display: flex;
   align-items: center;
+}
+div li span {
+  min-width: 158px;
 }
 
 div li + li {
@@ -26,8 +35,9 @@ button {
   background: #7159c1;
   color: #fff;
   border: 0;
-  padding: 10px 15px;
+  padding: 8px 12px;
   cursor: pointer;
+  float: right;
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
